@@ -4,7 +4,7 @@
 //Shapeless: recipes.addShapeless("name_of_your_recipe", <modname:blockID/itemID what you want to craft>, [items, and, blocks, for, this, recipe]);
 //null=empty, <ore:ID>=OreDict entry, <modname:blockID/itemID>=Self explanatory
 
-//Reinstall recipes so Advanced Inscriber from AE2 Stuff works again
+//Reinstall recipes so Advanced Inscriber from AE2 Stuff works again (See https://www.curseforge.com/minecraft/modpacks/scp-survive-create-prosper/issues/10)
 import mods.appliedenergistics2.Inscriber;
 //Logic Circuit
 Inscriber.removeRecipe(<appliedenergistics2:material:18>);
@@ -22,7 +22,14 @@ Inscriber.addRecipe(<appliedenergistics2:material:17>, <minecraft:diamond>, true
 Inscriber.removeRecipe(<appliedenergistics2:material:24>);
 Inscriber.addRecipe(<appliedenergistics2:material:24>, <minecraft:redstone>, false, <appliedenergistics2:material:17>, <appliedenergistics2:material:20>);
 
-//Removes recipes for Not Enough Wands 
+//Remove recipe for Extra Utilities Redstone Clock (See https://www.curseforge.com/minecraft/modpacks/scp-survive-create-prosper/issues/19)
+recipes.remove(<extrautils2:redstoneclock>);
+
+//Remove recipes for Chunkloaders, forcing you to use the FTBUtilities Team Mechanic. See https://www.curseforge.com/minecraft/modpacks/scp-survive-create-prosper/issues/21
+recipes.remove(<extrautils2:chunkloader>);
+recipes.remove(<opencomputers:upgrade:4>);
+
+//Removes recipes for Not Enough Wands. They should be found across the world.
 recipes.remove(<notenoughwands:protection_wand>);
 recipes.remove(<notenoughwands:acceleration_wand>);
 recipes.remove(<notenoughwands:moving_wand>);
@@ -45,7 +52,7 @@ recipes.addShaped("architecturecraft_item.architecturecraft.largepulley2", <arch
 //Allow the Aluminum Ingot to be crafted with Aluminum Nuggets from Thermal Foundation
 recipes.addShaped("unidict_ingotaluminum_x1_shape.aaaaaaaaa",<thermalfoundation:material:132>, [[<ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>], [<ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>], [<ore:nuggetAluminum>, <ore:nuggetAluminum>, <ore:nuggetAluminum>]]);
 
-//Adds recipes to the PortalBlocks mod
+//Adds recipes to the PortalBlocks mod. Maybe one day the mod will be fixed so it doesn't crash the server. I'd love to include it.
 //recipes.addShaped("portalblocks_floorbutton", <portalblocks:floorbutton>, [[<ore:blockQuartz>, <ore:dyeRed>, <ore:blockQuartz>], [<ore:blockQuartz>, <ore:dustRedstone>, <ore:blockQuartz>], [<ore:blockQuartz>, <ore:craftingPiston>, <ore:blockQuartz>]]);
 //recipes.addShaped("portalblocks_portal_door", <portalblocks:portal_door> * 4, [[<ore:blockQuartz>, <ore:dyeBlack>, <ore:blockQuartz>], [<ore:blockQuartz>, <ore:blockQuartz>, <ore:dyeLightBlue>], [<ore:blockQuartz>, <ore:dyeBlack>, <ore:dyeBlue>]]);
 //recipes.addShaped("portalblocks_pedestalbutton", <portalblocks:pedestalbutton>, [[null, <ore:dyeRed>, null], [<ore:dyeLightBlue>, <minecraft:stone_button>, <ore:dyeLightBlue>], [<ore:dyeLightBlue>, <minecraft:quartz_block:2>, <ore:dyeLightBlue>]]);
