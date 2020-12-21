@@ -4,6 +4,24 @@
 //Shapeless: recipes.addShapeless("name_of_your_recipe", <modname:blockID/itemID what you want to craft>, [items, and, blocks, for, this, recipe]);
 //null=empty, <ore:ID>=OreDict entry, <modname:blockID/itemID>=Self explanatory
 
+//Reinstall recipes so Advanced Inscriber from AE2 Stuff works again
+import mods.appliedenergistics2.Inscriber;
+//Logic Circuit
+Inscriber.removeRecipe(<appliedenergistics2:material:18>);
+Inscriber.addRecipe(<appliedenergistics2:material:18>, <minecraft:gold_ingot>,true, <appliedenergistics2:material:15>);
+//Logic Processor
+Inscriber.removeRecipe(<appliedenergistics2:material:22>);
+Inscriber.addRecipe(<appliedenergistics2:material:22>, <minecraft:redstone>, false, <appliedenergistics2:material:18>, <appliedenergistics2:material:20>);
+//Calculation Processor
+Inscriber.removeRecipe(<appliedenergistics2:material:23>);
+Inscriber.addRecipe(<appliedenergistics2:material:23>, <minecraft:redstone>, false, <appliedenergistics2:material:16>, <appliedenergistics2:material:20>);
+//Engineering Circuit
+Inscriber.removeRecipe(<appliedenergistics2:material:17>);
+Inscriber.addRecipe(<appliedenergistics2:material:17>, <minecraft:diamond>, true, <appliedenergistics2:material:14>);
+//Engineering Processor
+Inscriber.removeRecipe(<appliedenergistics2:material:24>);
+Inscriber.addRecipe(<appliedenergistics2:material:24>, <minecraft:redstone>, false, <appliedenergistics2:material:17>, <appliedenergistics2:material:20>);
+
 //Removes recipes for Not Enough Wands 
 recipes.remove(<notenoughwands:protection_wand>);
 recipes.remove(<notenoughwands:acceleration_wand>);
