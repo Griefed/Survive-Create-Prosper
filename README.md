@@ -3,8 +3,7 @@
 <p style="text-align: center;"><strong><em>Has nothing to do with the S.C.P. Foundation!</em></strong></p>
 <p style="text-align: center;">&nbsp;</p>
 <h2 style="text-align: center;"><img src="https://i.imgur.com/1LK58sz.png" alt="Survive" width="1128" height="490" /><img src="https://i.imgur.com/UxouuD8.png" alt="Create" width="1128" height="490" /><img src="https://i.imgur.com/S7w0ZPJ.png" alt="Prosper" width="1128" height="490" />&nbsp;</h2>
-<p>&nbsp;</p>
-<hr />
+
 <p style="text-align: center;"><span style="font-size: 14px;"><strong>SCP offers a wide variety of biomes to explore: Biomes'O'Plenty, Natura, Traverse, Netherx and more!</strong></span></p>
 <p style="text-align: center;"><span style="font-size: 14px;"><strong>Tech mods for your techy needs: EnderIO, Mekanism, Industrial Foregoing, Applied Energistics, Immersive Engineering and more!</strong></span></p>
 <p style="text-align: center;"><span style="font-size: 14px;"><strong>You're a wizard, Harry: Thaumcraft, Bloodmagic, Abyssalcraft, Botania, to name a few. If technology doesn't suit your fancy, try magic!</strong></span></p>
@@ -12,10 +11,6 @@
 <p style="text-align: center;"><span style="font-size: 14px;"><strong>Fun mods: Hats and Hat Stand for your haty needs.</strong></span></p>
 <p style="text-align: center;"><span style="font-size: 14px;"><strong>That's just a small example of what's included in SCP. So go ahead and give it a try! See the modlist below to see whether there's something of interest for you!</strong></span></p>
 <hr />
-<p style="text-align: center;"><strong>&nbsp;</strong></p>
-<p style="text-align: center;">&nbsp;</p>
-<p style="text-align: center;">&nbsp;</p>
-<hr /><hr />
 <p style="text-align: center;">This is purely a "opportunities and possibilities" modpack, meaning there are no quests and there probably never will be. Sorry! I simply don't have the time to add quests. That would be a LOT of work. I'd love to have quests in SCP, as the amount of content is huge and can be quite overwhelming, especially for players who've not played with a lot of mods, so quests would help a lot, but as I said, I sadly don't have the time for that...If you have experience with adding custom quests and have a ton of spare time, feel free to work on quests and drop me a comment or two if you've managed to conjure something up. I may just include your quests in SCP.</p>
 <p style="text-align: center;">The main focus of SCP is to provide as many tools and resources to build whatever your fantasy can come up with.</p>
 <p style="text-align: center;">The reason why I started this modpack, was because I wanted to build the Citadel from Half-Life 2, with machines and reactors and lots and lots of automization and technology. A couple of friends wanted to join in on the fun, started asking for more than just technology, which resulted in me adding a couple of magic focused mods, then some decorative ones and so on and so forth. The second reason why I made this modpack was that the german YouTuber and Let's Player "Gronkh" had his own modpack called "After Humans" which was based on "Life in the Woods". He stoppped working on it some day, so I finally got around and started making my own modpack.</p>
