@@ -1,0 +1,53 @@
+{
+  "Discord APP ID": "474588655118188564",
+  "Rich Presence Profiles": {
+    "preInit": {
+      "Activation Event": "PRE_INIT",
+      "Game State": "Pre-Init.",
+      "Details": "Forge Loading in pre-init.",
+      "Start Time Delay": 0,
+      "Big Image Key": "icon_enhanced_enhanced_png",
+      "Big Image Hover Text": "Modded Minecraft",
+      "Small Image Key": "minecraft-1-logo-png-transparent_png",
+      "Small Image Hover Text": "Modded Minecraft",
+      "Modification JavaScript": "RichPresence.smallImageText \u003d Helper.cancellUpdateIfMatch(Helper.getUserName(),null);"
+    },
+    "init": {
+      "Activation Event": "INIT",
+      "Game State": "Init.",
+      "Details": "Forge Loading in init.",
+      "Start Time Delay": 0,
+      "Big Image Key": "icon_enhanced_enhanced_png",
+      "Big Image Hover Text": "Modded Minecraft",
+      "Small Image Key": "minecraft-1-logo-png-transparent_png",
+      "Small Image Hover Text": "Modded Minecraft",
+      "Modification JavaScript": "RichPresence.smallImageText \u003d Helper.cancellUpdateIfMatch(Helper.getUserName(),null);"
+    },
+    "postInit": {
+      "Activation Event": "POST_INIT",
+      "Game State": "Post-Init.",
+      "Details": "Forge Loading in post-init.",
+      "Start Time Delay": 0,
+      "Big Image Key": "icon_enhanced_enhanced_png",
+      "Big Image Hover Text": "Modded Minecraft",
+      "Small Image Key": "minecraft-1-logo-png-transparent_png",
+      "Small Image Hover Text": "Modded Minecraft",
+      "Modification JavaScript": "RichPresence.smallImageText \u003d Helper.cancellUpdateIfMatch(Helper.getUserName(),null);"
+    },
+    "mainMenu": {
+      "Activation Event": "MAIN_MENU_REACHED",
+      "Game State": "",
+      "Details": "",
+      "Start Time Delay": 0,
+      "Big Image Key": "icon_enhanced_enhanced_png",
+      "Big Image Hover Text": "Modded Minecraft",
+      "Small Image Key": "minecraft-1-logo-png-transparent_png",
+      "Small Image Hover Text": "Modded Minecraft",
+      "Modification JavaScript": "RichPresence.smallImageText \u003d Helper.cancellUpdateIfMatch(Helper.getUserName(),null);RichPresence.details \u003d \u0027\u0027+Helper.cancellUpdateIfMatch(Helper.getUserName(),null)+\u0027 is causing havoc.\u0027;"
+    }
+  },
+  "Advanced Config": {
+    "Treat First Post-Load Screen As Main-Menu": true,
+    "Update Interval Millis": 5000
+  }
+}

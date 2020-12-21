@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+	  <recipe name="Alloy: Photovoltaic Plate" required="true">
+    <alloying energy="45000" exp="0.5">
+      <input name="itemPowderPhotovoltaic" amount="1"/>
+      <output name="itemPlatePhotovoltaic"/>
+    </alloying>
+  </recipe>
+  
+</enderio:recipes>

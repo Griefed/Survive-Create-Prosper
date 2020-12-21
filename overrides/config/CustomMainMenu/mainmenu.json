@@ -1,0 +1,213 @@
+{
+    "images":
+    {
+	
+		"button_background":
+        {
+            "image" : "scp:menu/images/button_background.png",
+            "posX" : 0,
+            "posY" : 0,
+            "width" : 140,
+            "height" : 500,
+            "alignment" : "left"
+        },
+		
+		"icon":
+        {
+            "image" : "scp:menu/icons/icon.png",
+            "posX" : 40,
+            "posY" : 40,
+            "width" : 55,
+            "height" : 55,
+            "alignment" : "left"
+        },
+		
+        "title":
+        {
+            "image" : "scp:menu/icons/minecraft.png",
+            "posX" : -150,
+            "posY" : 45,
+            "width" : 300,
+            "height" : 44,
+            "alignment" : "top_center"
+        },
+        
+        "edition":
+        {
+            "image" : "scp:menu/icons/edition.png",
+            "posX" : -100,
+            "posY" : 80,
+            "width" : 200,
+            "height" : 16,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+			"texture" : "scp:menu/buttons/buttons.png",
+            "posX" : 20,
+            "posY" : 120,
+            "width" : 100,
+            "height" : 20,
+			"alignment" : "left",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+			"texture" : "scp:menu/buttons/buttons.png",
+            "posX" : 20,
+            "posY" : 150,
+            "width" : 100,
+            "height" : 20,
+			"alignment" : "left",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+
+		"mods":
+        {
+            "text" : "fml.menu.mods",
+			"texture" : "scp:menu/buttons/buttons.png",
+            "posX" : 11,
+            "posY" : -80,
+            "width" : 50,
+            "height" : 20,
+			"alignment" : "bottom_left",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+			"texture" : "scp:menu/buttons/buttons.png",
+            "posX" : 10,
+            "posY" : -50,
+            "width" : 50,
+            "height" : 20,
+			"alignment" : "bottom_left",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+			"texture" : "scp:menu/buttons/buttons.png",
+            "posX" : 80,
+            "posY" : -50,
+            "width" : 50,
+            "height" : 20,
+			"alignment" : "bottom_left",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+			"texture" : "scp:menu/buttons/language.png",
+            "posX" : 80,
+            "posY" : -80,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "bottom_left",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : 110,
+            "posY" : -80,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "bottom_left",
+            "texture" : "scp:menu/buttons/refresh.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang1":
+        {
+            "text" : "Copyright Mojang AB.",
+            "hoverText" : "§nCopyright Mojang AB.",
+            "posX" : 15,
+            "posY" : -25,
+            "color" : -1,
+            "alignment" : "bottom_left",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+		
+		"mojang2":
+        {
+            "text" : "Do not distribute!",
+            "hoverText" : "§nDo not distribute!",
+            "posX" : 25,
+            "posY" : -15,
+            "color" : -1,
+            "alignment" : "bottom_left",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        }
+        
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 130,
+            "posY" : 80,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "file:scp:menu/splashes.txt"
+        },
+        
+        "panorama":
+        {
+            "images" : "scp:menu/images/background/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 2,
+            "blur" : true,
+            "gradient" : false
+        }
+    }
+}
