@@ -1,5 +1,5 @@
 <p style="text-align: center;"><span style="font-size: 24px;"><strong>Looking for a 1.16.5 modpack? Check out Survive Create Prosper 4:</strong></span></p>
-<p style="text-align: center;"><span style="font-size: 24px;"><a title="Survive Create Prosper 4" href="https://www.curseforge.com/minecraft/modpacks/survive-create-prosper-4" target="_blank" rel="noopener noreferrer"><strong><img src="https://www.griefed.de/wp-content/uploads/scp4_homepage.png" alt="" width="1200" height="152" /></strong></a></span></p>
+<p style="text-align: center;"><span style="font-size: 24px;"><a title="Survive Create Prosper 4" href="https://www.curseforge.com/minecraft/modpacks/survive-create-prosper-4" target="_blank" rel="noopener noreferrer"><strong><img src="https://i.griefed.de/images/2021/06/20/scp4_homepage.png" alt="" width="1200" height="152" /></strong></a></span></p>
 <p style="text-align: center;">&nbsp;</p>
 <hr />
 <p style="text-align: center;">&nbsp;</p>
