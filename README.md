@@ -1,3 +1,11 @@
+# Sources, GitHub, GitLab and Mirroring and all that good stuff
+
+Repositories on GitHub are now for issues only. I've set up my own installation of GitLab and moved all my repositories over to [Git.Griefed.de](https://git.griefed.de/users/Griefed/projects). Make sure to check there first for the latest code before opening an issue on GitHub.
+
+For questions, you can always join my [Discord server](https://discord.griefed.de) and talk to me there.
+
+---
+
 <p style="text-align: center;"><span style="font-size: 24px;"><strong>Looking for a 1.16.5 modpack? Check out Survive Create Prosper 4:</strong></span></p>
 <p style="text-align: center;"><span style="font-size: 24px;"><a title="Survive Create Prosper 4" href="https://www.curseforge.com/minecraft/modpacks/survive-create-prosper-4" target="_blank" rel="noopener noreferrer"><strong><img src="https://i.griefed.de/images/2021/06/20/scp4_homepage.png" alt="" width="1200" height="152" /></strong></a></span></p>
 <p style="text-align: center;">&nbsp;</p>
