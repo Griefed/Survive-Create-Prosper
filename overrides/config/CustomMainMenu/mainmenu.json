@@ -1,213 +1,256 @@
 {
-    "images":
-    {
-	
-		"button_background":
-        {
-            "image" : "scp:menu/images/button_background.png",
-            "posX" : 0,
-            "posY" : 0,
-            "width" : 140,
-            "height" : 500,
-            "alignment" : "left"
-        },
-		
-		"icon":
-        {
-            "image" : "scp:menu/icons/icon.png",
-            "posX" : 40,
-            "posY" : 40,
-            "width" : 55,
-            "height" : 55,
-            "alignment" : "left"
-        },
-		
-        "title":
-        {
-            "image" : "scp:menu/icons/minecraft.png",
-            "posX" : -150,
-            "posY" : 45,
-            "width" : 300,
-            "height" : 44,
-            "alignment" : "top_center"
-        },
-        
-        "edition":
-        {
-            "image" : "scp:menu/icons/edition.png",
-            "posX" : -100,
-            "posY" : 80,
-            "width" : 200,
-            "height" : 16,
-            "alignment" : "top_center"
-        }
-    },
-    
-    "buttons":
-    {
-        "singleplayer":
-        {
-            "text" : "menu.singleplayer",
-			"texture" : "scp:menu/buttons/buttons.png",
-            "posX" : 20,
-            "posY" : 120,
-            "width" : 100,
-            "height" : 20,
-			"alignment" : "left",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "singleplayer"
-            }
-        },
-        
-        "multiplayer":
-        {
-            "text" : "menu.multiplayer",
-			"texture" : "scp:menu/buttons/buttons.png",
-            "posX" : 20,
-            "posY" : 150,
-            "width" : 100,
-            "height" : 20,
-			"alignment" : "left",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "multiplayer"
-            }
-        },
-
-		"mods":
-        {
-            "text" : "fml.menu.mods",
-			"texture" : "scp:menu/buttons/buttons.png",
-            "posX" : 11,
-            "posY" : -80,
-            "width" : 50,
-            "height" : 20,
-			"alignment" : "bottom_left",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "mods"
-            }
-        },
-            
-        "options":
-        {
-            "text" : "menu.options",
-			"texture" : "scp:menu/buttons/buttons.png",
-            "posX" : 10,
-            "posY" : -50,
-            "width" : 50,
-            "height" : 20,
-			"alignment" : "bottom_left",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "options"
-            }
-        },
-        
-        "quit":
-        {
-            "text" : "menu.quit",
-			"texture" : "scp:menu/buttons/buttons.png",
-            "posX" : 80,
-            "posY" : -50,
-            "width" : 50,
-            "height" : 20,
-			"alignment" : "bottom_left",
-            "action" : 
-            {
-                "type" : "quit"
-            }
-        },
-        
-        "language":
-        {
-            "text" : "",
-			"texture" : "scp:menu/buttons/language.png",
-            "posX" : 80,
-            "posY" : -80,
-            "width" : 20,
-            "height" : 20,
-			"alignment" : "bottom_left",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "languages"
-            }
-        },
-        
-        "refresh":
-        {
-            "text" : "",
-            "posX" : 110,
-            "posY" : -80,
-            "width" : 20,
-            "height" : 20,
-			"alignment" : "bottom_left",
-            "texture" : "scp:menu/buttons/refresh.png",
-            "action" : 
-            {
-                "type" : "refresh"
-            }
-        }
-    },
-    
-    "labels":
-    {
-        "mojang1":
-        {
-            "text" : "Copyright Mojang AB.",
-            "hoverText" : "§nCopyright Mojang AB.",
-            "posX" : 15,
-            "posY" : -25,
-            "color" : -1,
-            "alignment" : "bottom_left",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "credits"
-            }
-        },
-		
-		"mojang2":
-        {
-            "text" : "Do not distribute!",
-            "hoverText" : "§nDo not distribute!",
-            "posX" : 25,
-            "posY" : -15,
-            "color" : -1,
-            "alignment" : "bottom_left",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "credits"
-            }
-        }
-        
-    },
-    
-    "other":
-    {
-        "splash-text":
-        {
-            "posX" : 130,
-            "posY" : 80,
-            "color" : -256,
-            "alignment" : "top_center",
-            "texts" : "file:scp:menu/splashes.txt"
-        },
-        
-        "panorama":
-        {
-            "images" : "scp:menu/images/background/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 2,
-            "blur" : true,
-            "gradient" : false
-        }
-    }
+	"images": {
+		"button_background": {
+			"image": "scp:menu/images/button_background.png",
+			"posX": 0,
+			"posY": 0,
+			"width": 140,
+			"height": 500,
+			"alignment": "left"
+		},
+		"icon": {
+			"image": "scp:menu/icons/logo.png",
+			"posX": 40,
+			"posY": 40,
+			"width": 55,
+			"height": 55,
+			"alignment": "left"
+		},
+		"title": {
+			"image": "scp:menu/icons/minecraft.png",
+			"posX": 145,
+			"posY": 125,
+			"width": 480,
+			"height": 40,
+			"imageWidth": 1365,
+			"imageHeight": 90,
+			"alignment": "top_left"
+		},
+		"edition": {
+			"image": "scp:menu/icons/edition.png",
+			"posX": 355,
+			"posY": 155,
+			"width": 40,
+			"height": 50,
+			"imageWidth": 77,
+			"imageHeight": 92,
+			"alignment": "top_left"
+		}
+	},
+	"buttons": {
+		"singleplayer": {
+			"text": "menu.singleplayer",
+			"texture": "scp:menu/buttons/button_singleplayer.png",
+			"posX": 20,
+			"posY": 100,
+			"width": 100,
+			"height": 25,
+			"textOffsetX": -10,
+			"normalTextColor": 12648430,
+			"hoverTextColor": -256,
+			"imageWidth": 600,
+			"imageHeight": 150,
+			"alignment": "left",
+			"action": {
+				"type": "openGui",
+				"gui": "singleplayer"
+			}
+		},
+		"multiplayer": {
+			"text": "menu.multiplayer",
+			"texture": "scp:menu/buttons/button_multiplayer.png",
+			"posX": 20,
+			"posY": 130,
+			"width": 100,
+			"height": 25,
+			"textOffsetX": -10,
+			"normalTextColor": 12648430,
+			"hoverTextColor": -256,
+			"imageWidth": 600,
+			"imageHeight": 150,
+			"alignment": "left",
+			"action": {
+				"type": "openGui",
+				"gui": "multiplayer"
+			}
+		},
+		"github": {
+			"text": "GitHub",
+			"texture": "scp:menu/buttons/button_github.png",
+			"posX": 35,
+			"posY": 165,
+			"width": 62,
+			"height": 15,
+			"textOffsetX": 5,
+			"normalTextColor": 12648430,
+			"hoverTextColor": -256,
+			"imageWidth": 480,
+			"imageHeight": 120,
+			"alignment": "left",
+			"action": {
+				"type": "openLink",
+				"link": "https://github.com/Griefed/Survive-Create-Prosper"
+			}
+		},
+		"news": {
+			"text": "Blog",
+			"texture": "scp:menu/buttons/button_news.png",
+			"posX": 35,
+			"posY": 185,
+			"width": 62,
+			"height": 15,
+			"textOffsetX": 5,
+			"normalTextColor": 12648430,
+			"hoverTextColor": -256,
+			"imageWidth": 480,
+			"imageHeight": 120,
+			"alignment": "left",
+			"action": {
+				"type": "openLink",
+				"link": "https://blog.griefed.de/"
+			}
+		},
+		"bisecthosting": {
+			"text": "BisectHosting",
+			"texture": "scp:menu/buttons/button_bisect.png",
+			"posX": 25,
+			"posY": 205,
+			"width": 88,
+			"height": 15,
+			"textOffsetX": 5,
+			"normalTextColor": 12648430,
+			"hoverTextColor": -256,
+			"imageWidth": 680,
+			"imageHeight": 120,
+			"alignment": "left",
+			"action": {
+				"type": "openLink",
+				"link": "https://www.bisecthosting.com/griefed"
+			}
+		},
+		"mods": {
+			"text": "fml.menu.mods",
+			"texture": "scp:menu/buttons/button_mods.png",
+			"posX": 10,
+			"posY": -80,
+			"width": 70,
+			"height": 20,
+			"textOffsetX": 10,
+			"normalTextColor": 12648430,
+			"hoverTextColor": -256,
+			"imageWidth": 500,
+			"imageHeight": 150,
+			"alignment": "bottom_left",
+			"action": {
+				"type": "openGui",
+				"gui": "mods"
+			}
+		},
+		"options": {
+			"text": "menu.options",
+			"texture": "scp:menu/buttons/button_options.png",
+			"posX": 10,
+			"posY": -110,
+			"width": 70,
+			"height": 20,
+			"textOffsetX": 11,
+			"normalTextColor": 12648430,
+			"hoverTextColor": -256,
+			"imageWidth": 500,
+			"imageHeight": 150,
+			"alignment": "bottom_left",
+			"action": {
+				"type": "openGui",
+				"gui": "options"
+			}
+		},
+		"quit": {
+			"text": "menu.quit",
+			"texture": "scp:menu/buttons/button_quit.png",
+			"posX": 20,
+			"posY": -55,
+			"width": 100,
+			"height": 25,
+			"textOffsetX": -10,
+			"normalTextColor": 12648430,
+			"hoverTextColor": -256,
+			"imageWidth": 600,
+			"imageHeight": 150,
+			"alignment": "bottom_left",
+			"action": {
+				"type": "quit"
+			}
+		},
+		"language": {
+			"text": "",
+			"texture": "scp:menu/buttons/button_language.png",
+			"posX": 110,
+			"posY": -110,
+			"width": 20,
+			"height": 20,
+			"imageWidth": 20,
+			"imageHeight": 20,
+			"alignment": "bottom_left",
+			"action": {
+				"type": "openGui",
+				"gui": "languages"
+			}
+		},
+		"refresh": {
+			"text": "",
+			"texture": "scp:menu/buttons/button_reload.png",
+			"posX": 110,
+			"posY": -80,
+			"imageWidth": 20,
+			"imageHeight": 20,
+			"width": 20,
+			"height": 20,
+			"alignment": "bottom_left",
+			"action": {
+				"type": "refresh"
+			}
+		}
+	},
+	"labels": {
+		"mojang1": {
+			"text": "Copyright Mojang AB.",
+			"hoverText": "§nCopyright Mojang AB.",
+			"posX": 15,
+			"posY": -25,
+			"color": -1,
+			"alignment": "bottom_left",
+			"action": {
+				"type": "openGui",
+				"gui": "credits"
+			}
+		},
+		"mojang2": {
+			"text": "Do not distribute!",
+			"hoverText": "§nDo not distribute!",
+			"posX": 25,
+			"posY": -15,
+			"color": -1,
+			"alignment": "bottom_left",
+			"action": {
+				"type": "openGui",
+				"gui": "credits"
+			}
+		}
+	},
+	"other": {
+		"splash-text": {
+			"posX": 100,
+			"posY": 30,
+			"color": 12648430,
+			"alignment": "center",
+			"texts": "file:scp:menu/splashes.txt"
+		},
+		"panorama": {
+			"images": "scp:menu/images/background/panorama_%c.png",
+			"animate": true,
+			"animationSpeed": 2,
+			"blur": true,
+			"gradient": true
+		}
+	}
 }
