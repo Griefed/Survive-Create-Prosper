@@ -1,12 +1,28 @@
 {
 	"images": {
-		"button_background": {
+		"button_background_top": {
 			"image": "scp:menu/images/button_background.png",
 			"posX": 0,
 			"posY": 0,
 			"width": 140,
 			"height": 500,
-			"alignment": "left"
+			"alignment": "top_left"
+		},
+		"button_background_center": {
+			"image": "scp:menu/images/button_background.png",
+			"posX": 0,
+			"posY": -250,
+			"width": 140,
+			"height": 500,
+			"alignment": "left_center"
+		},
+		"button_background_bottom": {
+			"image": "scp:menu/images/button_background.png",
+			"posX": 0,
+			"posY": -500,
+			"width": 140,
+			"height": 500,
+			"alignment": "bottom_left"
 		},
 		"icon": {
 			"image": "scp:menu/icons/logo.png",
@@ -18,23 +34,23 @@
 		},
 		"title": {
 			"image": "scp:menu/icons/minecraft.png",
-			"posX": 145,
-			"posY": 125,
+			"posX": -240,
+			"posY": 0,
 			"width": 480,
 			"height": 40,
 			"imageWidth": 1365,
 			"imageHeight": 90,
-			"alignment": "top_left"
+			"alignment": "top_center"
 		},
 		"edition": {
 			"image": "scp:menu/icons/edition.png",
-			"posX": 355,
-			"posY": 155,
+			"posX": -25,
+			"posY": 30,
 			"width": 40,
 			"height": 50,
 			"imageWidth": 77,
 			"imageHeight": 92,
-			"alignment": "top_left"
+			"alignment": "top_center"
 		}
 	},
 	"buttons": {
@@ -74,83 +90,26 @@
 				"gui": "multiplayer"
 			}
 		},
-		"github": {
-			"text": "GitHub",
-			"texture": "scp:menu/buttons/button_github.png",
-			"posX": 35,
-			"posY": 165,
-			"width": 62,
-			"height": 15,
-			"textOffsetX": 5,
-			"normalTextColor": 12648430,
-			"hoverTextColor": -256,
-			"imageWidth": 480,
-			"imageHeight": 120,
-			"alignment": "left",
-			"action": {
-				"type": "openLink",
-				"link": "https://github.com/Griefed/Survive-Create-Prosper"
-			}
-		},
-		"news": {
-			"text": "Blog",
-			"texture": "scp:menu/buttons/button_news.png",
-			"posX": 35,
-			"posY": 185,
-			"width": 62,
-			"height": 15,
-			"textOffsetX": 5,
-			"normalTextColor": 12648430,
-			"hoverTextColor": -256,
-			"imageWidth": 480,
-			"imageHeight": 120,
-			"alignment": "left",
-			"action": {
-				"type": "openLink",
-				"link": "https://blog.griefed.de/"
-			}
-		},
-		"bisecthosting": {
-			"text": "BisectHosting",
-			"texture": "scp:menu/buttons/button_bisect.png",
-			"posX": 25,
-			"posY": 205,
-			"width": 88,
-			"height": 15,
-			"textOffsetX": 5,
-			"normalTextColor": 12648430,
-			"hoverTextColor": -256,
-			"imageWidth": 680,
-			"imageHeight": 120,
-			"alignment": "left",
-			"action": {
-				"type": "openLink",
-				"link": "https://www.bisecthosting.com/griefed"
-			}
-		},
-		"mods": {
-			"text": "fml.menu.mods",
-			"texture": "scp:menu/buttons/button_mods.png",
-			"posX": 10,
+		"language": {
+			"text": "",
+			"texture": "scp:menu/buttons/button_language.png",
+			"posX": 110,
 			"posY": -80,
-			"width": 70,
+			"width": 20,
 			"height": 20,
-			"textOffsetX": 10,
-			"normalTextColor": 12648430,
-			"hoverTextColor": -256,
-			"imageWidth": 500,
-			"imageHeight": 150,
+			"imageWidth": 20,
+			"imageHeight": 20,
 			"alignment": "bottom_left",
 			"action": {
 				"type": "openGui",
-				"gui": "mods"
+				"gui": "languages"
 			}
 		},
 		"options": {
 			"text": "menu.options",
 			"texture": "scp:menu/buttons/button_options.png",
 			"posX": 10,
-			"posY": -110,
+			"posY": -80,
 			"width": 70,
 			"height": 20,
 			"textOffsetX": 11,
@@ -181,30 +140,87 @@
 				"type": "quit"
 			}
 		},
-		"language": {
-			"text": "",
-			"texture": "scp:menu/buttons/button_language.png",
-			"posX": 110,
-			"posY": -110,
-			"width": 20,
-			"height": 20,
-			"imageWidth": 20,
-			"imageHeight": 20,
-			"alignment": "bottom_left",
+		"github": {
+			"text": "GitHub",
+			"texture": "scp:menu/buttons/button_github.png",
+			"posX": -66,
+			"posY": -60,
+			"width": 62,
+			"height": 15,
+			"textOffsetX": 5,
+			"normalTextColor": 12648430,
+			"hoverTextColor": -256,
+			"imageWidth": 480,
+			"imageHeight": 120,
+			"alignment": "bottom_right",
+			"action": {
+				"type": "openLink",
+				"link": "https://github.com/Griefed/Survive-Create-Prosper"
+			}
+		},
+		"news": {
+			"text": "Blog",
+			"texture": "scp:menu/buttons/button_news.png",
+			"posX": -66,
+			"posY": -40,
+			"width": 62,
+			"height": 15,
+			"textOffsetX": 5,
+			"normalTextColor": 12648430,
+			"hoverTextColor": -256,
+			"imageWidth": 480,
+			"imageHeight": 120,
+			"alignment": "bottom_right",
+			"action": {
+				"type": "openLink",
+				"link": "https://blog.griefed.de/"
+			}
+		},
+		"bisecthosting": {
+			"text": "BisectHosting",
+			"texture": "scp:menu/buttons/button_bisect.png",
+			"posX": -93,
+			"posY": -20,
+			"width": 88,
+			"height": 15,
+			"textOffsetX": 5,
+			"normalTextColor": 12648430,
+			"hoverTextColor": -256,
+			"imageWidth": 680,
+			"imageHeight": 120,
+			"alignment": "bottom_right",
+			"action": {
+				"type": "openLink",
+				"link": "https://www.bisecthosting.com/griefed"
+			}
+		},
+		"mods": {
+			"text": "fml.menu.mods",
+			"texture": "scp:menu/buttons/button_mods.png",
+			"posX": -65,
+			"posY": -80,
+			"width": 60,
+			"height": 15,
+			"textOffsetX": 10,
+			"normalTextColor": 12648430,
+			"hoverTextColor": -256,
+			"imageWidth": 600,
+			"imageHeight": 150,
+			"alignment": "bottom_right",
 			"action": {
 				"type": "openGui",
-				"gui": "languages"
+				"gui": "mods"
 			}
 		},
 		"refresh": {
 			"text": "",
 			"texture": "scp:menu/buttons/button_reload.png",
-			"posX": 110,
-			"posY": -80,
+			"posX": 0,
+			"posY": -6,
 			"imageWidth": 20,
 			"imageHeight": 20,
-			"width": 20,
-			"height": 20,
+			"width": 5,
+			"height": 5,
 			"alignment": "bottom_left",
 			"action": {
 				"type": "refresh"
